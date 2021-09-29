@@ -1,0 +1,2 @@
+https://pubs.rsna.org/doi/full/10.1148/radiol.2020192091
+https://towardsdatascience.com/deep-learning-and-medical-imaging-part-1-explore-the-mrnet-mri-dataset-of-knee-injuries-f519d063165
