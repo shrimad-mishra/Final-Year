@@ -10,5 +10,9 @@ I am thing to make use of **Object Detection** for this work.
 Work Distribution
 
 Data Preprocessing -------------------> Sindhu and Anushka
+
+
 Data Visualisation -------------------> Snehananda
+
+
 CNN Model ----------------------------> Shrimad
