@@ -29,7 +29,7 @@ This repo contains implementation of the deep learning-based outcome prediction 
 * Requirements.txt which contains all the required python library.
 
 ## Training a DL model
-You can use this repo to train models for predicting TKR outcome and KL grade. So, you directly run the following script to train DL models with nested cross-validation. 
+You can use this repo to train models for predicting KR outcome and KL grade. So, you directly run the following script to train DL models with nested cross-validation. 
 
 
 ## Approach
@@ -63,7 +63,7 @@ If you found this code useful, please cite our paper:
 Shrimad Mishra, Sindhu Kotegar, S.G Anushka, Sneha Nanda
 
 #### Emails 
-* mshrimad@gmail.com --- LinkedIn --- (https://www.linkedin.com/in/shrimad-mishra-45929a1a1/)
-*
+* mshrimad@gmail.com          --- LinkedIn --- (https://www.linkedin.com/in/shrimad-mishra-45929a1a1/)
+* sindhukotegar@gmail.com     --- LinkedIn --- (https://www.linkedin.com/in/sindhu-n-b7948516b/)
 *
 *
