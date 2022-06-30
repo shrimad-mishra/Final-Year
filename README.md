@@ -12,15 +12,15 @@ This repo contains implementation of the deep learning-based outcome prediction 
 * Repo includes different folders and files.
 
 * Data folder contains --:--
-                        -|- test
-                        -|- train
-                        -|- Test.csv
-                        -|- Train.csv
+                        * test
+                        * train
+                        * Test.csv
+                        * Train.csv
 
 * Resources folder contains --:--
-                                -|- Dataset Link
-                                -|- Extra
-                                -|- Papers
+                                * Dataset Link
+                                * Extra
+                                * Papers
 
 * Methodology diagram
 
@@ -34,12 +34,12 @@ You can use this repo to train models for predicting TKR outcome and KL grade. S
 ## Inference
 
 --- Inference Results ---
-Total Knee Replacement (TKR): 0.86
-Minimal  0: 0.47
-Healthy  1: 0.41
-Moderate 2: 0.40
-Doubtful 3: 0.78
-Severe   4: 0.83
+* Total Knee Replacement (TKR): 0.86
+    * Minimal  0: 0.47
+    * Healthy  1: 0.41
+    * Moderate 2: 0.40
+    * Doubtful 3: 0.78
+    * Severe   4: 0.83
 
 ## Reference
 If you found this code useful, please cite our paper:
