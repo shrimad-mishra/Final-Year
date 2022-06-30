@@ -31,6 +31,16 @@ This repo contains implementation of the deep learning-based outcome prediction 
 ## Training a DL model
 You can use this repo to train models for predicting TKR outcome and KL grade. So, you directly run the following script to train DL models with nested cross-validation. 
 
+
+## Approach
+
+* We have used Inception and Xception models to bring all the result and used the model which have high accuracy.
+
+* Here is the architecture of the Xception Model:-
+
+* Here is the architecture of the Inception Model:-
+
+
 ## Inference
 
 --- Inference Results ---
