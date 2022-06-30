@@ -12,15 +12,15 @@ This repo contains implementation of the deep learning-based outcome prediction 
 * Repo includes different folders and files.
 
 * Data folder contains --:--
-                        * test
-                        * train
-                        * Test.csv
-                        * Train.csv
+    * test
+    * train
+    * Test.csv
+    * Train.csv
 
 * Resources folder contains --:--
-                                * Dataset Link
-                                * Extra
-                                * Papers
+    * Dataset Link
+    * Extra
+    * Papers
 
 * Methodology diagram
 
