@@ -33,6 +33,9 @@ You can use this repo to train models for predicting TKR outcome and KL grade. S
 
 ## Inference
 
+![FLow Diagram](https://user-images.githubusercontent.com/42738198/176733893-a7cec182-a06a-4be0-9b32-5e8d68897c13.png)
+
+
 --- Inference Results ---
 * Total Knee Replacement (TKR): 0.86
     * Minimal  0: 0.47
