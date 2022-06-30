@@ -37,8 +37,12 @@ You can use this repo to train models for predicting TKR outcome and KL grade. S
 * We have used Inception and Xception models to bring all the result and used the model which have high accuracy.
 
 * Here is the architecture of the Xception Model:-
+![image](https://user-images.githubusercontent.com/42738198/176734649-fff631a2-acd4-4502-bf83-e9d3b1d8b919.png)
+![image](https://user-images.githubusercontent.com/42738198/176734871-3993ba3b-d42a-4f42-869b-cb60a373682d.png)
+
 
 * Here is the architecture of the Inception Model:-
+![image](https://user-images.githubusercontent.com/42738198/176735027-f069fe18-3ea3-4a67-843b-da8099a31227.png)
 
 
 ## Inference
