@@ -1,4 +1,4 @@
-# Prediction of Total Knee Replacement and Diagnosis of Osteoarthritis using Deep Learning: Data from the Osteoarthritis Initiative/ GM Hospital
+# Prediction of Replacement and Diagnosis of Osteoarthritis using Deep Learning: Data from the Osteoarthritis Initiative/ GM Hospital
 
 ## Introduction
 This repo contains implementation of the deep learning-based outcome prediction model used for osteoarthritis research as described in our paper: [........................................................................................................................] . By using this implementation, you can either train new models using nested cross-validation or obtain TKR outcome and KL grade redictions by using our pretrained models.[>>>> Model link will be given soon <<<<] 
