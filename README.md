@@ -37,10 +37,10 @@ You can use this repo to train models for predicting KR outcome and KL grade. So
 * We have used Inception and Xception models to bring all the result and used the model which have high accuracy.
 
 * Here is the architecture of the Xception Model:-
-* ![image](https://user-images.githubusercontent.com/42738198/176734649-fff631a2-acd4-4502-bf83-e9d3b1d8b919.png)
+* ![Xception](https://user-images.githubusercontent.com/42738198/176997269-149e025e-67e2-4a54-b0ef-805bcc248d08.png)
 
 * Here is the architecture of the Inception Model:-
-* ![image](https://user-images.githubusercontent.com/42738198/176735615-cb035d97-d0cb-4b6e-a9e0-6010949f7de4.png)
+* ![Inception drawio](https://user-images.githubusercontent.com/42738198/176997277-fe91d21d-7ae8-4f11-9b11-920db6ef88bd.png)
 
 
 ## Inference
