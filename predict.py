@@ -29,7 +29,7 @@ def prediction(image):
 
 # Streamlit part starts
 st.title("Knee Replacement Prediction App")
-st.write("A Deep Learning technique to predict the knee replacement chances")
+st.header("A Deep Learning technique to predict the knee replacement chances")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 result = ["Minimal", "Healthy", "Moderate" ,"Doubtful", "Severe"]
@@ -77,7 +77,7 @@ if uploaded_file is not None:
     graph_file = Image.open("Plot.png")
     st.write("")
     st.header("** Prediction Graph **")
-    st.image(graph_file, caption='Prediction Grapg', use_column_width=True)
+    st.image(graph_file, caption='Prediction Graph', use_column_width=True)
 
     # Showing ROC graph
     accurage_file = Image.open("Accuracy.png")
