@@ -22,11 +22,16 @@ This repo contains implementation of the deep learning-based outcome prediction 
     * Extra
     * Papers
 
+* Model --:--
+    * Please check out **(https://drive.google.com/file/d/1ByrqaKIOgLv4a9aEggOaII-sMfQ12lY0/view?usp=sharing)** and after downloading put it in model file.
+
 * Methodology diagram
 
 * Main python notebook file which make all the predictions and calculate results.
 
 * Requirements.txt which contains all the required python library.
+
+* Run the predict.py file using **streamlit run predict.py**
 
 ## Training a DL model
 You can use this repo to train models for predicting KR outcome and KL grade. So, you directly run the following script to train DL models with nested cross-validation. 
