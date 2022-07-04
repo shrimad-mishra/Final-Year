@@ -37,6 +37,7 @@ result = ["Minimal", "Healthy", "Moderate" ,"Doubtful", "Severe"]
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
+    new_image = image.resize((600, 400))
     directory = "uploaded_file"
     path = os.path.join(os.getcwd(), directory)
     p = Path(path)
@@ -47,7 +48,7 @@ if uploaded_file is not None:
     
     file_location = os.path.join(path, uploaded_file.name)  
     
-    st.image(image, caption='Uploaded Image', use_column_width=True)
+    st.image(new_image, caption='Uploaded Image', use_column_width=True)
     st.write("")
     st.header("Classifying ......................................................")
     
@@ -62,23 +63,6 @@ if uploaded_file is not None:
     for i in range(len(result)):
         data[result[i]] = label[i]
     
-    # Ploting of result comparision graph
-    keys = list(data.keys())
-    values = list(data.values())
-        
-    fig = plt.figure(figsize = (10, 5))
-    plt.bar(keys, values, color ='maroon',width = 0.4)
-    plt.xlabel("Category of prediction")
-    plt.ylabel("Probability")
-    plt.title("Prediction Graph")
-    plt.plot()
-    plt.show()
-    plt.savefig('Plot.png')
-    graph_file = Image.open("Plot.png")
-    st.write("")
-    st.header("** Prediction Graph **")
-    st.image(graph_file, caption='Prediction Graph', use_column_width=True)
-
     # Showing ROC graph
     accurage_file = Image.open("Accuracy.png")
     st.write("")
